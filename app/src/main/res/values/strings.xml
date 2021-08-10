@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fahad SicpaTest</string>
+    <string name="action_search">Search</string>
+    <string name="label_popular">Popular</string>
+    <string name="label_most_viewed">Most Viewed</string>
+    <string name="label_most_emailed">Most Emailed</string>
+    <string name="label_most_shared">Most Shared</string>
+</resources>

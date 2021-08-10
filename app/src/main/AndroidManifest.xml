@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fahad.sicpa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.fahad.sicpa.CustomApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SICPA">
+
+        <activity
+            android:name="com.fahad.sicpa.activities.main.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.fahad.sicpa.activities.popular.PopularActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.fahad.sicpa.activities.search.SearchActivity"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>
